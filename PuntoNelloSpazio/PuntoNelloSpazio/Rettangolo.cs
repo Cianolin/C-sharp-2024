@@ -8,13 +8,12 @@ namespace PuntoNelloSpazio
 {
     internal class Rettangolo
     {
-        int _larghezza, _altezza, _x, _y;
+        int _larghezza, _altezza;
 
-        public Rettangolo(int larghezza, int altezza,int x,int y)
+        public Rettangolo(Punto point)
         {
-            
-            Larghezza = larghezza;
-            Altezza = altezza;
+            Larghezza= point.MaxLargh-point.X; 
+            Altezza=point.MaxLargh-point.Y;
         }
         public int Larghezza {  get { return _larghezza; } set { _larghezza = value;}}
         public int Altezza { get { return _altezza; } set { _altezza = value;}}
@@ -23,6 +22,10 @@ namespace PuntoNelloSpazio
         {
             int area = Larghezza * Altezza;
             return area;
+        }
+        public override string ToString()
+        {
+            return string.Format($"Larghezza: {Larghezza}\nAltezza: {Altezza}\nArea: {Area()}");
         }
     }
 }

@@ -8,6 +8,11 @@ namespace PuntoNelloSpazio
 {
     internal class Parallelogramma: Rettangolo
     {
+        int _lunghezza;
 
+        public Parallelogramma(int lunghezza, Punto point) : base(point)
+        {
+
+        }
     }
 }

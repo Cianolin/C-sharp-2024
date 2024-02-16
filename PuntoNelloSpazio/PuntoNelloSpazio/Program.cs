@@ -10,7 +10,10 @@ namespace PuntoNelloSpazio
     {
         static void Main(string[] args)
         {
-            Punto punto = new Punto(Console.WindowHeight, Console.WindowWidth, 0, 0);
+            Punto punto = new Punto(Console.WindowHeight, Console.WindowWidth, 12, 20);
+            Rettangolo rettangolo=new Rettangolo(punto);
+            Console.WriteLine(punto.ToString());
+            Console.WriteLine(rettangolo.ToString());
             Console.ReadLine();
         }
     }
