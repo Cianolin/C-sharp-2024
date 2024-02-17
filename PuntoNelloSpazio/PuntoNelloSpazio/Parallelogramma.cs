@@ -8,11 +8,16 @@ namespace PuntoNelloSpazio
 {
     internal class Parallelogramma: Rettangolo
     {
-        int _lunghezza;
+        int _profontita;
 
-        public Parallelogramma(int lunghezza, Punto point) : base(point)
+        public Parallelogramma(int profontita, Punto point) : base(point)
         {
-
+            Profontita = profontita;
+        }
+        public int Profontita
+        {
+            get { return _profontita; }
+            set { _profontita = value;}
         }
     }
 }

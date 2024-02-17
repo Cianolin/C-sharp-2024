@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PuntoNelloSpazio
 {
-    internal class Quadrato// : Rettangolo
+    internal class Quadrato : Rettangolo
     {
+        int 
     }
 }

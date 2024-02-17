@@ -20,8 +20,11 @@ namespace PuntoNelloSpazio
 
         public int Area()
         {
-            int area = Larghezza * Altezza;
-            return area;
+                return Larghezza * Altezza;
+        }
+        public int Perimetro()
+        {
+            return (Larghezza + Altezza) * 2;
         }
         public override string ToString()
         {
