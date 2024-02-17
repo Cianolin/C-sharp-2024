@@ -10,7 +10,7 @@ namespace PuntoNelloSpazio
     {
         int _profontita;
 
-        public Parallelogramma(int profontita, Punto point) : base(point)
+        public Parallelogramma(Punto point,int profontita, int larghezza, int altezza) : base(point, larghezza, altezza)
         {
             Profontita = profontita;
         }
@@ -18,6 +18,10 @@ namespace PuntoNelloSpazio
         {
             get { return _profontita; }
             set { _profontita = value;}
+        }
+        public int Volume()
+        {
+            return Profontita*Altezza*Larghezza;
         }
     }
 }

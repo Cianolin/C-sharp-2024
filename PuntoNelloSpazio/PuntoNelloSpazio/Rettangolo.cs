@@ -10,10 +10,10 @@ namespace PuntoNelloSpazio
     {
         int _larghezza, _altezza;
 
-        public Rettangolo(Punto point)
+        public Rettangolo(Punto point,int larghezza,int altezza)
         {
-            Larghezza= point.MaxLargh-point.X; 
-            Altezza=point.MaxLargh-point.Y;
+            Larghezza= larghezza; 
+            Altezza=altezza;
         }
         public int Larghezza {  get { return _larghezza; } set { _larghezza = value;}}
         public int Altezza { get { return _altezza; } set { _altezza = value;}}
