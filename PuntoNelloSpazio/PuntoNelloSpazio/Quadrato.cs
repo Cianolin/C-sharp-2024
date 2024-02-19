@@ -8,6 +8,8 @@ namespace PuntoNelloSpazio
 {
     internal class Quadrato : Rettangolo
     {
-        int 
+        public Quadrato(Punto p, int altezza, int larghezza) : base(p, larghezza, altezza)
+        {
+        }
     }
 }
