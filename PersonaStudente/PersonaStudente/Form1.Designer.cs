@@ -49,18 +49,20 @@
             // 
             // LB_nome
             // 
-            this.LB_nome.Location = new System.Drawing.Point(12, 269);
+            this.LB_nome.Location = new System.Drawing.Point(16, 331);
+            this.LB_nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LB_nome.Name = "LB_nome";
-            this.LB_nome.Size = new System.Drawing.Size(100, 20);
+            this.LB_nome.Size = new System.Drawing.Size(132, 22);
             this.LB_nome.TabIndex = 0;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opziniToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 1;
             // 
             // opziniToolStripMenuItem
@@ -69,7 +71,7 @@
             this.creaToolStripMenuItem,
             this.visualizzaToolStripMenuItem});
             this.opziniToolStripMenuItem.Name = "opziniToolStripMenuItem";
-            this.opziniToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.opziniToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
             this.opziniToolStripMenuItem.Text = "Opzini";
             // 
             // creaToolStripMenuItem
@@ -78,105 +80,115 @@
             this.personaToolStripMenuItem,
             this.studenteToolStripMenuItem});
             this.creaToolStripMenuItem.Name = "creaToolStripMenuItem";
-            this.creaToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.creaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.creaToolStripMenuItem.Text = "Crea";
             // 
             // personaToolStripMenuItem
             // 
             this.personaToolStripMenuItem.Name = "personaToolStripMenuItem";
-            this.personaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.personaToolStripMenuItem.Size = new System.Drawing.Size(151, 26);
             this.personaToolStripMenuItem.Text = "Persona";
             // 
             // studenteToolStripMenuItem
             // 
             this.studenteToolStripMenuItem.Name = "studenteToolStripMenuItem";
-            this.studenteToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.studenteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.studenteToolStripMenuItem.Text = "Studente";
+            this.studenteToolStripMenuItem.Click += new System.EventHandler(this.studenteToolStripMenuItem_Click);
             // 
             // visualizzaToolStripMenuItem
             // 
             this.visualizzaToolStripMenuItem.Name = "visualizzaToolStripMenuItem";
-            this.visualizzaToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.visualizzaToolStripMenuItem.Size = new System.Drawing.Size(157, 26);
             this.visualizzaToolStripMenuItem.Text = "Visualizza";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 253);
+            this.label1.Location = new System.Drawing.Point(16, 311);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nome";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 292);
+            this.label2.Location = new System.Drawing.Point(16, 359);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Cognome";
             // 
             // LB_cognome
             // 
-            this.LB_cognome.Location = new System.Drawing.Point(12, 308);
+            this.LB_cognome.Location = new System.Drawing.Point(16, 379);
+            this.LB_cognome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LB_cognome.Name = "LB_cognome";
-            this.LB_cognome.Size = new System.Drawing.Size(100, 20);
+            this.LB_cognome.Size = new System.Drawing.Size(132, 22);
             this.LB_cognome.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(163, 292);
+            this.label3.Location = new System.Drawing.Point(217, 359);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(66, 16);
             this.label3.TabIndex = 8;
             this.label3.Text = "Cognome";
             // 
             // LB_cognomeStudente
             // 
-            this.LB_cognomeStudente.Location = new System.Drawing.Point(163, 308);
+            this.LB_cognomeStudente.Location = new System.Drawing.Point(217, 379);
+            this.LB_cognomeStudente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LB_cognomeStudente.Name = "LB_cognomeStudente";
-            this.LB_cognomeStudente.Size = new System.Drawing.Size(100, 20);
+            this.LB_cognomeStudente.Size = new System.Drawing.Size(132, 22);
             this.LB_cognomeStudente.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(163, 253);
+            this.label4.Location = new System.Drawing.Point(217, 311);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(44, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Nome";
             // 
             // LB_nomeStudente
             // 
-            this.LB_nomeStudente.Location = new System.Drawing.Point(163, 269);
+            this.LB_nomeStudente.Location = new System.Drawing.Point(217, 331);
+            this.LB_nomeStudente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LB_nomeStudente.Name = "LB_nomeStudente";
-            this.LB_nomeStudente.Size = new System.Drawing.Size(100, 20);
+            this.LB_nomeStudente.Size = new System.Drawing.Size(132, 22);
             this.LB_nomeStudente.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(160, 331);
+            this.label6.Location = new System.Drawing.Point(213, 407);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 13);
+            this.label6.Size = new System.Drawing.Size(62, 16);
             this.label6.TabIndex = 10;
             this.label6.Text = "Matricola";
             // 
             // LT_matricolaStudente
             // 
-            this.LT_matricolaStudente.Location = new System.Drawing.Point(160, 347);
+            this.LT_matricolaStudente.Location = new System.Drawing.Point(213, 427);
+            this.LT_matricolaStudente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LT_matricolaStudente.Name = "LT_matricolaStudente";
-            this.LT_matricolaStudente.Size = new System.Drawing.Size(100, 20);
+            this.LT_matricolaStudente.Size = new System.Drawing.Size(132, 22);
             this.LT_matricolaStudente.TabIndex = 9;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.LT_matricolaStudente);
             this.Controls.Add(this.label3);
@@ -189,8 +201,10 @@
             this.Controls.Add(this.LB_nome);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

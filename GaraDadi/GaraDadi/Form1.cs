@@ -8,24 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PersonaStudente
+namespace GaraDadi
 {
     public partial class Form1 : Form
     {
-        List<Persona> Persone=new List<Persona>();
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void studenteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
         }
     }
 }
